@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@400;700&family=Inter:wght@200&family=Kanit:wght@100;400;700&display=swap');
+
+* {
+    margin: 0px;
+
+}
+
+body {
+
+    padding: 0px;
+    background: #4A4A4A;
+}
+
+
+.navbar {
+    display: flex;
+    transition:0.5s;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+#logo {
+    position: relative;
+    align-self: center;
+    margin-left: 12rem;
+}
+
+#logo img {
+    position: relative;
+    width: 60px;
+    height: 50px;
+}
+
+.main-menu {
+    display: flex;
+    position: relative;
+    align-self: center;
+    margin-right: 12rem;
+    list-style: none;
+    /* z-index: 0; */
+}
+
+.main-menu li {
+
+    padding: 0px 8px 0px 8px;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+.hero-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    /* border: 2px solid red; */
+}
+
+.hero-page span {
+    font-size: 40px;
+    line-height: 64px;
+}
+
+.hero-page h1 {
+    font-size: 64px;
+    line-height: 102px;
+}
+
+.hero-page p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#hero-Video {
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    position: absolute;
+
+    width: 100%;
+
+    z-index: -1;
+
+}
+
+.hero-content {
+    position: absolute;
+
+}
+
+/* work section */
+.work-page {
+    /* border: 2px solid yellow; */
+    padding-top: 10rem;
+    position: relative;
+    width: 100%;
+    height: 632px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-page>p {
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 4rem;
+}
+
+section>p>bold {
+    font-weight: 700;
+}
+
+.projects {
+    display: flex;
+    border: 2px solid greenyellow;
+    margin: 0rem 0 5rem 0;
+}
+
+.project {
+    margin: 0.8rem;
+    width: 338px;
+    height: 427px;
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #3C3C3C;
+    border-radius: 15px;
+}
+
+.project>img {
+    width: 130px;
+
+}
+
+#project-type {
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+#project-name {
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 5px;
+}
+
+#duration {
+    font-family: 'Fjord';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+#definition {
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+    margin: 0.5rem 2rem 0 2rem;
+
+}
+
+.btn {
+    cursor: pointer;
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    background: #8ABA82;
+    width: 85%;
+    margin: 0.5rem 2rem 0 2rem;
+    border: #8ABA82;
+}
